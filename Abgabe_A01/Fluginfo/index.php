@@ -159,9 +159,9 @@ if(isset($_POST['delete']))
                             <td class = "right"><?php echo $array[$i]['seatposition']; ?></td>
                             <td class = "right"><button name="delete" value="<?php echo $array[$i]['id'];?>">X</button></td>
                         </tr>
-                    <?php } }?>
+                    <?php }?>
                     </form>
-
-            </table> 
+            </table>
+            <?php }?> 
     </body>
 </html>
